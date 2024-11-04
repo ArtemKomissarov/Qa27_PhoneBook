@@ -49,6 +49,8 @@ public class LoginTests extends TestBase{
 
 
 
+
+
     @Test(dataProvider = "loginModels",dataProviderClass = DataProviderUser.class)
     public void loginSuccessModel(User user){
         logger.info("Test data ---> " +user.toString());

@@ -1,4 +1,4 @@
-ackage tests;
+package tests;
 
 import models.User;
 import org.testng.Assert;

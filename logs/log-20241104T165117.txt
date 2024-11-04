@@ -1,0 +1,119 @@
+16:51:19.979 [Test worker] INFO  manager.ApplicationManager -- All tests run in Chrome Browser
+16:51:21.106 [Test worker] INFO  manager.ApplicationManager -- The link--->https://telranedu.web.app/home
+16:51:21.118 [Test worker] INFO  manager.TestNGListener -- start testing on date -->Mon Nov 04 16:51:21 YEKT 2024
+16:51:21.147 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+16:51:26.229 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:26.230 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+16:51:26.230 [Test worker] INFO  tests.TestBase -- Test data ---> email:mara@gmail.com & password: Mmar123456$
+16:51:26.232 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+16:51:26.278 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+16:51:26.300 [Test worker] INFO  manager.WDListener -- Location of element (1491, 34)
+16:51:26.340 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+16:51:26.412 [Test worker] INFO  manager.WDListener -- After click element-->a
+16:51:26.412 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+16:51:26.413 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+16:51:26.451 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+16:51:26.466 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+16:51:26.486 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:26.552 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:26.643 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:26.687 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:26.752 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:26.753 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+16:51:26.753 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+16:51:26.791 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+16:51:26.802 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+16:51:26.829 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:26.890 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:26.975 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:27.012 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:27.071 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:27.072 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+16:51:27.072 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+16:51:27.097 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+16:51:27.110 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+16:51:27.133 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+16:51:28.106 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+16:51:28.108 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:28.109 [Test worker] INFO  tests.TestBase -- ==========================================================
+16:51:28.110 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+16:51:28.137 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+16:51:28.163 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+16:51:28.179 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+16:51:28.201 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+16:51:28.264 [Test worker] INFO  tests.TestBase -- Before method logout finish
+16:51:28.265 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:28.265 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+16:51:28.265 [Test worker] INFO  tests.TestBase -- Test data ---> email:sonya@gmail.com & password: Ss12345$
+16:51:28.265 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+16:51:28.293 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+16:51:28.306 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+16:51:28.325 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+16:51:28.382 [Test worker] INFO  manager.WDListener -- After click element-->a
+16:51:28.382 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+16:51:28.382 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+16:51:28.405 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+16:51:28.418 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+16:51:28.436 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:28.563 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:28.640 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.674 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.726 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.726 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+16:51:28.726 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+16:51:28.741 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+16:51:28.755 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+16:51:28.770 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:28.824 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:28.887 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.921 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.958 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:28.958 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+16:51:28.958 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+16:51:28.973 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+16:51:28.988 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+16:51:29.008 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+16:51:29.326 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+16:51:29.327 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:29.327 [Test worker] INFO  tests.TestBase -- ==========================================================
+16:51:29.328 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+16:51:29.347 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+16:51:29.367 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+16:51:29.383 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+16:51:29.406 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+16:51:29.467 [Test worker] INFO  tests.TestBase -- Before method logout finish
+16:51:29.468 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:29.469 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+16:51:29.469 [Test worker] INFO  tests.TestBase -- Test data ---> email:mara@gmail.com & password: Mmar123456$
+16:51:29.470 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+16:51:29.494 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+16:51:29.514 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+16:51:29.539 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+16:51:29.606 [Test worker] INFO  manager.WDListener -- After click element-->a
+16:51:29.606 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+16:51:29.606 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+16:51:29.633 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+16:51:29.651 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+16:51:29.671 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:29.723 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:29.810 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:29.859 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:29.926 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:29.926 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+16:51:29.926 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+16:51:29.949 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+16:51:29.965 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+16:51:29.989 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+16:51:30.040 [Test worker] INFO  manager.WDListener -- After click element-->input
+16:51:30.116 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:30.148 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:30.190 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+16:51:30.191 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+16:51:30.191 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+16:51:30.215 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+16:51:30.229 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+16:51:30.243 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+16:51:30.628 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+16:51:30.628 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@34a875b3]
+16:51:30.629 [Test worker] INFO  tests.TestBase -- ==========================================================
+16:51:30.632 [Test worker] INFO  manager.TestNGListener -- stop testing on date -->Mon Nov 04 16:51:21 YEKT 2024
