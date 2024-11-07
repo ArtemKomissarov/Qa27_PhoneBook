@@ -1,0 +1,361 @@
+17:40:26.915 [Test worker] INFO  manager.ApplicationManager -- All tests run in Chrome Browser
+17:40:28.023 [Test worker] INFO  manager.ApplicationManager -- The link--->https://telranedu.web.app/home
+17:40:28.037 [Test worker] INFO  manager.TestNGListener -- start testing on date -->Thu Nov 07 17:40:28 YEKT 2024
+17:40:28.065 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+17:40:33.124 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:33.125 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:40:33.125 [Test worker] INFO  tests.TestBase -- Test data ---> email:mara@gmail.com & password: Mmar123456$
+17:40:33.147 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:33.176 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:33.194 [Test worker] INFO  manager.WDListener -- Location of element (1491, 34)
+17:40:33.216 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:33.277 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:33.277 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:33.278 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:33.306 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:33.318 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:33.331 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:33.379 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:33.449 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.480 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.535 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.535 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:33.536 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:33.559 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:33.568 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:33.582 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:33.628 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:33.683 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.712 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.769 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:33.770 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:33.770 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:33.793 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:33.803 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:33.818 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:35.771 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+17:40:35.773 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:35.774 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:35.775 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+17:40:35.794 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:35.817 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:35.828 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+17:40:35.843 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+17:40:35.900 [Test worker] INFO  tests.TestBase -- Before method logout finish
+17:40:35.901 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:35.901 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:40:35.901 [Test worker] INFO  tests.TestBase -- Test data ---> email:sonya@gmail.com & password: Ss12345$
+17:40:35.901 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:35.920 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:35.933 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:35.951 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:35.991 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:35.991 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:35.991 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:36.007 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:36.017 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:36.032 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:36.081 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:36.136 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.175 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.239 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.240 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:36.240 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:36.254 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:36.267 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:36.284 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:36.342 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:36.400 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.434 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.481 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:36.481 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:36.481 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:36.498 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:36.510 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:36.529 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:36.842 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+17:40:36.842 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:36.844 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:36.844 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccess
+17:40:36.866 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:36.882 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:36.895 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+17:40:36.910 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+17:40:36.967 [Test worker] INFO  tests.TestBase -- Before method logout finish
+17:40:36.967 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:36.968 [Test worker] INFO  tests.TestBase -- Start test with name 'loginSuccess'
+17:40:36.968 [Test worker] INFO  tests.TestBase -- Test data ---> email:mara@gmail.com & password: Mmar123456$
+17:40:36.968 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:36.989 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:37.002 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:37.018 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:37.060 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:37.060 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:37.061 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:37.078 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:37.092 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:37.108 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:37.167 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:37.229 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.259 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.315 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.315 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:37.315 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:37.329 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:37.342 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:37.356 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:37.410 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:37.470 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.504 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.558 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:37.559 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:37.559 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:37.573 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:37.586 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:37.601 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:37.965 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+17:40:37.965 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccess(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:37.966 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:37.967 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccessModel
+17:40:37.982 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:37.997 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:38.008 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+17:40:38.020 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+17:40:38.071 [Test worker] INFO  tests.TestBase -- Before method logout finish
+17:40:38.072 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccessModel(models.User)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:38.072 [Test worker] INFO  tests.TestBase -- Test data ---> User{email='mara@gmail.com', password='Mmar123456$'}
+17:40:38.073 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:38.090 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:38.102 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:38.118 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:38.156 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:38.156 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:38.156 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:38.170 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:38.181 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:38.195 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:38.256 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:38.329 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.369 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.441 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.442 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:38.458 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:38.470 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:38.485 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:38.553 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:38.621 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.654 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.713 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:38.713 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:38.726 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:38.738 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:38.751 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:39.054 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+17:40:39.054 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccessModel(models.User)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:39.054 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:39.054 [Test worker] INFO  tests.TestBase -- Name of method--->loginSuccessModel
+17:40:39.069 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:39.081 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:39.092 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+17:40:39.107 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+17:40:39.153 [Test worker] INFO  tests.TestBase -- Before method logout finish
+17:40:39.154 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginSuccessModel(models.User)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:39.154 [Test worker] INFO  tests.TestBase -- Test data ---> User{email='sonya@gmail.com', password='Ss12345$'}
+17:40:39.154 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:39.168 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:39.182 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:39.195 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:39.227 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:39.227 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:39.227 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:39.241 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:39.254 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:39.266 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:39.317 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:39.375 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.405 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.467 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.467 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:39.480 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:39.490 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:39.502 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:39.553 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:39.609 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.642 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.691 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:39.691 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:39.702 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:39.716 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:39.730 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:40.086 [Test worker] INFO  tests.TestBase -- Assert check is element Button 'Sign out' present
+17:40:40.087 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginSuccessModel(models.User)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:40.087 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:40.089 [Test worker] INFO  manager.TestNGListener -- skipped test --> LoginTests.loginSuccessModelDPF(models.User)[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:40.090 [Test worker] INFO  tests.TestBase -- Name of method--->loginUnregisteredUser
+17:40:40.103 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:40.117 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Sign Out']
+17:40:40.128 [Test worker] INFO  manager.WDListener -- Location of element (1476, 39)
+17:40:40.145 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Sign Out
+17:40:40.199 [Test worker] INFO  tests.TestBase -- Before method logout finish
+17:40:40.200 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginUnregisteredUser()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:40.201 [Test worker] INFO  tests.TestBase -- Test data ---> email: 'mara123@gmail.com' & password: 'Mmar123456$'
+17:40:40.201 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:40.218 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:40.228 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:40.248 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:40.291 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:40.291 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:40.291 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:40.304 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:40.316 [Test worker] INFO  manager.WDListener -- Location of element (600, 250)
+17:40:40.331 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:40.395 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:40.450 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.491 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.559 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.560 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:40.560 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:40.571 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:40.584 [Test worker] INFO  manager.WDListener -- Location of element (600, 320)
+17:40:40.597 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:40.658 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:40.723 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.760 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.824 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:40.824 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:40.824 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:40.840 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:40.852 [Test worker] INFO  manager.WDListener -- Location of element (600, 390)
+17:40:40.867 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:40.928 [Test worker] INFO  manager.WDListener -- Huston we have a problem!
+17:40:40.929 [Test worker] INFO  manager.WDListener -- Object target-->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@771a7d53
+17:40:40.929 [Test worker] INFO  manager.WDListener -- ***************
+17:40:40.929 [Test worker] INFO  manager.WDListener -- Method name--->alert
+17:40:40.929 [Test worker] INFO  manager.WDListener -- ***************
+17:40:40.929 [Test worker] INFO  manager.WDListener -- InvocationTargetException-->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce89aeb24b45541f3ede7b9e6a73717b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\artem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce89aeb24b45541f3ede7b9e6a73717b
+17:40:40.929 [Test worker] INFO  manager.WDListener -- ***************
+17:40:40.929 [Test worker] INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1602.png
+17:40:41.460 [Test worker] INFO  tests.TestBase -- Assert check is alert with error text 'Wrong email or password' present
+17:40:41.460 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginUnregisteredUser()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:41.460 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:41.461 [Test worker] INFO  tests.TestBase -- Name of method--->loginWrongEmail
+17:40:46.510 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:46.510 [Test worker] INFO  tests.TestBase -- Test data ---> email: 'maragmail.com' & password: 'Mmar123456$'
+17:40:46.510 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:46.524 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:46.534 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:46.547 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:46.584 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:46.584 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:46.584 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:46.596 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:46.606 [Test worker] INFO  manager.WDListener -- Location of element (600, 281)
+17:40:46.622 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:46.664 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:46.743 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:46.771 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:46.805 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:46.805 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:46.805 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:46.817 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:46.830 [Test worker] INFO  manager.WDListener -- Location of element (600, 351)
+17:40:46.847 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:46.887 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:46.954 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:46.980 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:47.010 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:47.011 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:47.011 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:47.022 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:47.032 [Test worker] INFO  manager.WDListener -- Location of element (600, 421)
+17:40:47.047 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:47.089 [Test worker] INFO  manager.WDListener -- Huston we have a problem!
+17:40:47.090 [Test worker] INFO  manager.WDListener -- Object target-->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@7161457
+17:40:47.090 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.090 [Test worker] INFO  manager.WDListener -- Method name--->alert
+17:40:47.090 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.090 [Test worker] INFO  manager.WDListener -- InvocationTargetException-->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce89aeb24b45541f3ede7b9e6a73717b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\artem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce89aeb24b45541f3ede7b9e6a73717b
+17:40:47.090 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.090 [Test worker] INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1348.png
+17:40:47.604 [Test worker] INFO  manager.WDListener -- Huston we have a problem!
+17:40:47.604 [Test worker] INFO  manager.WDListener -- Object target-->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6ec63f8
+17:40:47.604 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.604 [Test worker] INFO  manager.WDListener -- Method name--->alert
+17:40:47.604 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.604 [Test worker] INFO  manager.WDListener -- InvocationTargetException-->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce89aeb24b45541f3ede7b9e6a73717b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\artem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce89aeb24b45541f3ede7b9e6a73717b
+17:40:47.604 [Test worker] INFO  manager.WDListener -- ***************
+17:40:47.604 [Test worker] INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1555.png
+17:40:48.118 [Test worker] INFO  tests.TestBase -- Assert check is alert with error text 'Wrong email or password' present
+17:40:48.119 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginWrongEmail()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:48.119 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:48.121 [Test worker] INFO  tests.TestBase -- Name of method--->loginWrongPassword
+17:40:53.189 [Test worker] INFO  manager.TestNGListener -- start test --> LoginTests.loginWrongPassword()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:53.190 [Test worker] INFO  tests.TestBase -- Test data ---> email: 'mara@gmail.com' & password: 'Mmar123'
+17:40:53.190 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.cssSelector: a[href='/login']
+17:40:53.202 [Test worker] INFO  manager.WDListener -- After Find Element -->By.cssSelector: a[href='/login']
+17:40:53.212 [Test worker] INFO  manager.WDListener -- Location of element (1489, 33)
+17:40:53.226 [Test worker] INFO  manager.WDListener -- Before click element-->a text= LOGIN
+17:40:53.260 [Test worker] INFO  manager.WDListener -- After click element-->a
+17:40:53.260 [Test worker] INFO  manager.HelperBase -- open form by click on button with locator By.cssSelector("a[href='/login']") 
+17:40:53.260 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.name: email
+17:40:53.270 [Test worker] INFO  manager.WDListener -- After Find Element -->By.name: email
+17:40:53.281 [Test worker] INFO  manager.WDListener -- Location of element (600, 281)
+17:40:53.294 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:53.331 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:53.392 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.418 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.450 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.450 [Test worker] INFO  manager.HelperBase -- type in input with locator By.name("email")
+17:40:53.450 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //input[last()]
+17:40:53.460 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //input[last()]
+17:40:53.471 [Test worker] INFO  manager.WDListener -- Location of element (600, 351)
+17:40:53.484 [Test worker] INFO  manager.WDListener -- Before click element-->input text= 
+17:40:53.522 [Test worker] INFO  manager.WDListener -- After click element-->input
+17:40:53.588 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.614 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.643 [Test worker] INFO  manager.WDListener -- sendKeys--> input
+17:40:53.643 [Test worker] INFO  manager.HelperBase -- type in input with locator By.xpath("//input[last()]")
+17:40:53.643 [Test worker] INFO  manager.WDListener -- Before Find Element -->By.xpath: //button[text()='Login']
+17:40:53.654 [Test worker] INFO  manager.WDListener -- After Find Element -->By.xpath: //button[text()='Login']
+17:40:53.665 [Test worker] INFO  manager.WDListener -- Location of element (600, 421)
+17:40:53.679 [Test worker] INFO  manager.WDListener -- Before click element-->button text= Login
+17:40:53.717 [Test worker] INFO  manager.WDListener -- Huston we have a problem!
+17:40:53.717 [Test worker] INFO  manager.WDListener -- Object target-->org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@39666e42
+17:40:53.717 [Test worker] INFO  manager.WDListener -- ***************
+17:40:53.717 [Test worker] INFO  manager.WDListener -- Method name--->alert
+17:40:53.717 [Test worker] INFO  manager.WDListener -- ***************
+17:40:53.717 [Test worker] INFO  manager.WDListener -- InvocationTargetException-->org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=130.0.6723.116)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ce89aeb24b45541f3ede7b9e6a73717b, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.116, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\artem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60628}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60628/devtoo..., se:cdpVersion: 130.0.6723.116, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ce89aeb24b45541f3ede7b9e6a73717b
+17:40:53.718 [Test worker] INFO  manager.WDListener -- ***************
+17:40:53.718 [Test worker] INFO  manager.WDListener -- Screen with error is --->src/test/screenshots/screen_1100.png
+17:40:54.232 [Test worker] INFO  tests.TestBase -- Assert check is alert with error text 'Wrong email or password' present
+17:40:54.232 [Test worker] INFO  manager.TestNGListener -- success test --> LoginTests.loginWrongPassword()[pri:0, instance:tests.LoginTests@2e2ff723]
+17:40:54.232 [Test worker] INFO  tests.TestBase -- ==========================================================
+17:40:54.234 [Test worker] INFO  manager.TestNGListener -- stop testing on date -->Thu Nov 07 17:40:28 YEKT 2024

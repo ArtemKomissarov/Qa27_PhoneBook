@@ -22,17 +22,17 @@ public class TestBase {
     static ApplicationManager app = new ApplicationManager
             (System.getProperty("browser", Browser.CHROME.browserName()));
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void startLogger(Method m){
         logger.info("Name of method--->" +m.getName());
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void end(){
         logger.info("==========================================================");
     }
 
-    @BeforeSuite
+    @BeforeSuite(alwaysRun = true)
     public void setUp() {
         app.init();
     }

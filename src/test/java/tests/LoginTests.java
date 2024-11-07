@@ -19,7 +19,7 @@ public class LoginTests extends TestBase{
 
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         //is SignOut present---> logout
         if (app.getHelperUser().isLogged()){
@@ -28,7 +28,7 @@ public class LoginTests extends TestBase{
         }
     }
 
-
+    //for jenkins
     @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
     public void loginSuccess(String email, String password){
         logger.info("Start test with name 'loginSuccess'");
@@ -44,8 +44,6 @@ public class LoginTests extends TestBase{
         Assert.assertTrue(app.getHelperUser().isLogged());
         logger.info("Assert check is element Button 'Sign out' present");
     }
-
-
 
 
 
@@ -86,7 +84,7 @@ public class LoginTests extends TestBase{
     }
 
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail(){
         logger.info("Test data ---> email: 'maragmail.com' & password: 'Mmar123456$'");
         app.getHelperUser().openLoginRegistrationForm();
