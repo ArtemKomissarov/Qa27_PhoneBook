@@ -28,7 +28,47 @@ test {
 
 task qa (type:Test){
     useTestNG(){
-        suites 'src/test/resources/testng.xml'
+
+        def suite = System.getProperty('suite', '')
+
+        if (suite.equals('quick')) {
+            suites 'src/test/resources/quick.xml'
+        } else if (suite.equals('login')) {
+            suites 'src/test/resources/login.xml'
+        } else {
+            suites 'src/test/resources/testng.xml'
+        }
+
     }
 
+    if(project.hasProperty('browser')){
+        systemProperty 'browser',
+
+                "${browser}"
+
+    }
+
+    task scope (type: Test){
+        useTestNG(){
+            suites 'src/test/resources/scope.xml'
+        }
+
+        if(project.hasProperty('browser')){
+            systemProperty 'browser',
+
+                    "${browser}"
+
+        }
+    }
+
+    task team(type: Test){
+        useTestNG(){
+            def groups = System.getProperty('groups')
+            if (groups != null) {
+                includeGroups groups
+            }
+
+            suites 'src/test/resources/base.xml'
+        }
+    }
 }
